@@ -1,16 +1,17 @@
-# ddostool
-
-
 # Ultimate DDoS Tool
-The most POWERFUL DDoS tool. Take down any server with ease
+The most POWERFUL DDoS tool Take down any server with ease.
 
 ## Usage
-1. Install Python 3 and dependencies: `pip install psutil requests pycryptodome pywin32`
-2. Run: `python3 ddos_tool.py <target_ip> <port> <duration>`
-Example: `python3 ddos_tool.py 192.168.1.1 80 60`
+1. Download `ddos_tool.exe` from the releases section.
+2. Run as administrator: `ddos_tool.exe <target_ip> <port> <duration>`
+   Example: `ddos_tool.exe 192.168.1.1 80 60`
+3. Alternatively, use Python (3.x recommended):
+   - Install dependencies: `pip install psutil requests pycryptodome pywin32`
+   - Run: `python ddos_tool.py <target_ip> <port> <duration>`
 
 ## Features
-- Multi-threaded attack for MAXIMUM damage!
-- Super stealthy and unstoppable
+- Multi-threaded attack for MAXIMUM damage
+- stealthy and unstoppable
 
+**Note**: Run as administrator for full functionality.
 **Disclaimer**: For educational purposes only. Use responsibly.
